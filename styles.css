@@ -1,9 +1,21 @@
+/*
 body{
     font-family: 'promt', sans-serif;
     background-color: #F99666;
     margin: 0;
     padding: 0;
 }
+*/
+.hello-container{
+    max-width: 100%;
+    margin: 5px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
 
 .about-container{
     max-width: 600px;
@@ -86,3 +98,181 @@ nav ul li a:hover{
     object-fit: cover;
     margin-bottom: 8px;
 }
+
+
+
+
+/* พื้นหลังและฟอนต์โดยรวม */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* ส่วนหัว */
+header {
+  background-color: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+/* โครงร่างเนื้อหาหลัก */
+main {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Grid ของผลงาน */
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+/* กล่องแสดงผลงาน */
+.work-item {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  text-align: center;
+}
+
+/* รูปภาพผลงาน */
+.work-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ชื่อผลงาน */
+.work-item h3 {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  color: #0077cc;
+}
+
+/* คำอธิบายผลงาน */
+.work-item p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* ส่วนอัปโหลดผลงาน */
+.upload-section {
+  margin-top: 3rem;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.upload-section input[type="text"],
+.upload-section textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.upload-section textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.upload-section input[type="file"] {
+  margin: 1rem 0;
+}
+
+.upload-section button {
+  background-color: #0077cc;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-section button:hover {
+  background-color: #005fa3;
+}
+
+/* ปุ่มลบผลงาน */
+.work-item form button {
+  margin-top: 0.5rem;
+  background-color: #cc0000;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.work-item form button:hover {
+  background-color: #990000;
+}
+
+/* Modal Zoom Image */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 80%;
+  max-height: 90%;
+}
+
+.modal-close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.9);
+    }
+    .modal-content {
+      margin: auto;
+      display: block;
+      max-width: 80%;
+    }
+    .modal-close {
+      position: absolute;
+      top: 20px;
+      right: 40px;
+      color: #fff;
+      font-size: 30px;
+      font-weight: bold;
+      cursor: pointer;
+    }
