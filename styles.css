@@ -50,7 +50,9 @@ body{
 
 nav{
     background-color: #FFDEAD;
-    padding: 10px 0;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
 }
 
 nav ul{
